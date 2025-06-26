@@ -1,0 +1,8 @@
+{
+  "appName": "Tuva",
+  "disabledExtensions": {
+    "@jupyterlab/debugger-extension": true,
+    "@jupyterlab/extensionmanager-extension": true,
+    "@jupyterlab/filebrowser-extension": true
+  }
+} 
