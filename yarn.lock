@@ -2299,7 +2299,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@jupyterlab/application@^4.5.0-alpha.1, @jupyterlab/application@workspace:packages/application, @jupyterlab/application@~4.5.0-alpha.1":
+"@jupyterlab/application@^4.5.0-alpha.1, @jupyterlab/application@workspace:^, @jupyterlab/application@workspace:packages/application, @jupyterlab/application@~4.5.0-alpha.1":
   version: 0.0.0-use.local
   resolution: "@jupyterlab/application@workspace:packages/application"
   dependencies:
@@ -2363,7 +2363,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@jupyterlab/apputils@^4.6.0-alpha.1, @jupyterlab/apputils@workspace:packages/apputils":
+"@jupyterlab/apputils@^4.6.0-alpha.1, @jupyterlab/apputils@workspace:^, @jupyterlab/apputils@workspace:packages/apputils":
   version: 0.0.0-use.local
   resolution: "@jupyterlab/apputils@workspace:packages/apputils"
   dependencies:
@@ -4570,6 +4570,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/repo-top@workspace:."
   dependencies:
+    "@jupyterlab/application": "workspace:^"
+    "@jupyterlab/apputils": "workspace:^"
     "@typescript-eslint/eslint-plugin": ~6.13.2
     "@typescript-eslint/parser": ~6.13.2
     eslint: ~8.55.0
